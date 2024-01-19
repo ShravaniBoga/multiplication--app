@@ -1,0 +1,71 @@
+/* body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-image: url(img.png);
+} */
+
+body {
+  margin: 0;
+  width: 100%; /* Set the width of the container */
+  height: 100vh; /* Set the height of the container (viewport height) */
+  background-image: url(img.png); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  display: flex;
+  justify-content: center; /* Center horizontally within the container */
+  align-items: center; /* Center vertically within the container */
+  text-align: center;
+  font-family: cursive;
+}
+
+.form {
+  background-color: rgb(245, 242, 247);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px green;
+  color: rgb(21, 107, 6);
+}
+.input::placeholder {
+  color: lightgray;
+  font-family: cursive;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 50;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 20px -20px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+.score {
+  color: green;
+  text-align: right;
+}
